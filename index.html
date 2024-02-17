@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OH Studio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar {
+            margin-top: 25px;
+            margin-left: 600px;
+            background-color: #f3f3f3;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 20%;
+            top: 0;
+            z-index: 1000;
+            border-radius: 50px;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #333;
+            text-decoration: none;
+            padding: 9px 18px;
+            margin: 5px 2px;
+            display: inline;
+            border-radius: 50px;
+            background-color: #f3f3f3;
+            transition: background-color 0.3s ease;
+        }
+
+        .hover-element:hover,
+        .hover-element:active {
+            background-color: #8d8d8d;
+            color: #f3f3f3;
+        }
+
+        .content {
+            margin-top: 200px;
+            font-size: 70px;
+            text-align: center;
+            margin-left: 410px;
+            margin-right: 410px;
+        }
+
+        .menu {
+            margin-left: 565px;
+            margin-top: 50px;
+        }
+
+        div p {
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+            margin-left: 20px;
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 3px 2px;
+            display: inline;
+            border-radius: 50px;
+            background-color: #f3f3f3;
+        }
+
+        .grid1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: 1;
+            column-gap: 20px;
+            row-gap: 35px;
+            justify-content: center;
+            margin-top: 120px;
+        }
+
+        .img1 {
+            width: 640px;
+            height: 530px;
+            border-radius: 15px;
+        }
+
+        .img1:hover,
+        .img1:active {
+            transition: filter ease-out;
+            cursor: pointer;
+        }
+
+
+        .image-container img:hover {
+            filter: blur(5px);
+        }
+
+        .text1 {
+            margin-top: 150px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .text2 {
+            margin-top: ;
+            font-size: 40px;
+            text-align: center;
+            color: #6e6e6e;
+            text-decoration: none;
+            display: inline;
+            justify-content: center;
+            margin-left: 650px;
+        }
+
+        .text2:hover,
+        .text2:active {
+            color: #b7b7b7;
+            cursor: pointer;
+        }
+
+        .shop {
+            margin-top: 665px;
+            margin-left: 713px;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 6%;
+            top: 0;
+            z-index: 1000;
+            border-radius: 50px;
+            align-items: center;
+            text-decoration: none;
+            display: inline;
+        }
+
+        #copyright {
+            margin-top: 100px;
+            margin-left: 50px;
+            padding-bottom: 40px;
+            padding-right: 1100px;
+            background-color: #ffffff;
+            display: inline-block;
+        }
+
+        div a {
+            text-decoration: none;
+            color: #333;
+            justify-content: right;
+            align-items: center;
+            margin-right: 20px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="navbar">
+        <a class="hover-element" href="#home">Home</a>
+        <a class="hover-element" href="#profile">Profile</a>
+        <a class="hover-element" href="#contact">Contact</a>
+    </div>
+</body>
+
+<div class="content">
+    A brand and product designer working with clients globally
+</div>
+
+<div class="menu menu1">
+    <p>Expertise</p>
+    <p>Branding</p>
+    <p>Product</p>
+    <p>Design Systems</p>
+</div>
+
+<div class="grid1 image-container">
+    <img class="img1" src="./images/pic1.jpg" alt="">
+    <img class="img1" src="./images/pic2.jpg" alt="">
+    <img class="img1" src="./images/pic3.jpg" alt="">
+    <img class="img1" src="./images/pic4.jpg" alt="">
+    <img class="img1" src="./images/pic5.jpg" alt="">
+    <img class="img1" src="./images/pic6.jpg" alt="">
+    <img class="img1" src="./images/pic7.jpg" alt="">
+    <img class="img1" src="./images/pic8.jpg" alt="">
+    <img class="img1" src="./images/pic9.jpg" alt="">
+    <img class="img1" src="./images/pic10.jpg" alt="">
+    <img class="img1" src="./images/pic11.jpg" alt="">
+    <img class="img1" src="./images/pic12.jpg" alt="">
+</div>
+
+<div class="text1">
+    Let's work together.
+</div>
+
+<div class="text2">
+    Get in touch.
+</div>
+
+<div>
+    <a class="shop" href="#shop" style="text-decoration: none;">❇ Shop</a>
+</div>
+
+<div class="footer">
+    <p id="copyright">&#169; Oli Harris 2023</p>
+    <a href="">Twitter</a>
+    <a href="">Linkedin</a>
+    <a href="">Mail</a>
+</div>
+
+</html>
